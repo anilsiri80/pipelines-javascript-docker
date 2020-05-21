@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: anilsiripipelinesjavascriptdocker 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: anilsiripipelinesjavascriptdocker 
+    spec:
+      containers:
+        - name: anilsiripipelinesjavascriptdocker 
+          image: anilsiri80cr.azurecr.io/anilsiripipelinesjavascriptdocker
+          ports:
+          - containerPort: 8080
