@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
         - name: anilsiripipelinesjavascriptdocker 
-          image: anilsiri80cr.azurecr.io/anilsiripipelinesjavascriptdocker
+          image: anilsiri80cr.azurecr.io/anilsiripipelinesjavascriptdockerold
           ports:
           - containerPort: 8080
