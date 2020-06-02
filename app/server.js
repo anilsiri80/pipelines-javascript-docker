@@ -7,7 +7,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello Java Kube world\n');
+  res.send('Hello world Kubernates Pipeline deployment test for JAVA\n');
 });
 
 app.listen(PORT, HOST);
